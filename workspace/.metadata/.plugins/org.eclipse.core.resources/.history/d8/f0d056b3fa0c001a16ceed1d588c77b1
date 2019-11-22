@@ -37,7 +37,7 @@ public class TestInMetrics{
 		testes.ConfereXpath("Carreiras");
 		testes.AcionaBotoes();
 		
-	  if(testes.elemento.getText().equals("Carrconfieiras")){
+	  if(testes.elemento.getText().equals("Carreiras")){
 			
 			testes.ConfereXpath("confira nossas vagas");
 			testes.AcionaBotoes();
