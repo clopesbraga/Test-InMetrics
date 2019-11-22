@@ -1,7 +1,6 @@
 package br.com.BaseTestes;
 
-
-
+//CLASSE QUE ALÉM DE CARREGAR OS DRIVERS PARA AUTOMATIZAÇÃO DE TESTE
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -14,6 +13,7 @@ public class CarregaDriver {
 	public WebDriver driver;
 	public	WebElement elemento;
 	
+	// CARREGA OS DRIVER PARA ABRIR A PAGINA
 	public CarregaDriver() {
 
 		
@@ -23,6 +23,7 @@ public class CarregaDriver {
 		
 	}
 	
+	// METODO QUE RECEBE UM ELEMENTO DA PAGINA 
 	public WebElement ConfereXpath(String xpath) {
 	
 		elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
@@ -31,13 +32,16 @@ public class CarregaDriver {
 	
 	}
 	
+	/*METODO QUE APROVEITA O ELEMENTO CARREGADO PARA FAZER O BOTAO
+	 *CLICAR AUTOMATICAMENTE  
+	 */
 	public void AcionaBotoes(){
 	
 		if(elemento.isEnabled()){	
 			elemento.click();
-			System.out.println("Click "+elemento.getText()+" realizado");
-			
 		}
+		
+		
 		
 	}
 	
