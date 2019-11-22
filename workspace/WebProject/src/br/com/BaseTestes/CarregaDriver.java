@@ -15,7 +15,7 @@ public class CarregaDriver {
 	public	WebElement elemento;
 	
 	public CarregaDriver() {
-		//System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\WebDrivers\\chromedriver.exe");
+
 		
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browser/chromedriver.exe");
 		driver = new ChromeDriver();
@@ -24,14 +24,21 @@ public class CarregaDriver {
 	}
 	
 	public WebElement ConfereXpath(String xpath) {
-		
-		//elemento = testes.driver.findElement(By.xpath("//a[contains(text(),'confira nossas vagas')]"));
-		elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
-		
 	
+		elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
 
 		return elemento;
 	
+	}
+	
+	public void AcionaBotoes(){
+	
+		if(elemento.isEnabled()){	
+			elemento.click();
+			System.out.println("Click "+elemento.getText()+" realizado");
+			
+		}
+		
 	}
 	
 

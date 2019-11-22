@@ -16,34 +16,34 @@ import br.com.BaseTestes.CarregaDriver;
 public class TestInMetrics{
 	
 	CarregaDriver testes;
-	WebElement elemento;
-	
 
 	@Before
 	public void setUp() throws Exception {
 		
 		testes = new CarregaDriver();
+		
 	}
 
 	@After
 	public void tearDown() throws Exception {
 		
-		//testes.driver.close();
+		testes.driver.close();
 	
 	}
 
 	@Test
 	public void TestBotaoVagas() {
 		
-		testes.ConfereXpath("confira nossas vagas");
-
-		/*if(testes.elemento.isDisplayed()){
-			
-			testes.elemento.click();
-			
-		}*/
+		testes.ConfereXpath("Carreiras");
+		testes.AcionaBotoes();
 		
-		
+	  if(testes.elemento.getText().equals("Carreiras")){
+			
+			testes.ConfereXpath("confira nossas vagas");
+			testes.AcionaBotoes();
+			
+		}
+			
 	
 	}
 		
