@@ -1,0 +1,23 @@
+package br.com.ExcucaoTestes;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+
+import br.com.BaseTestes.CarregaConexaoWeb;
+
+public class TestListaFilmes {
+	
+	
+	public static void main(String[] args) throws Exception {
+ 
+		CarregaConexaoWeb carregaWeb = new CarregaConexaoWeb();
+		System.out.println("Testing 1 - Send Http GET request");
+		System.out.println(carregaWeb.sendGet());
+	
+ 
+	}
+	
+
+}

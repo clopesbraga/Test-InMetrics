@@ -1,0 +1,46 @@
+
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebTestePage {
+	
+	private WebDriver driver;
+	private WebElement elemento;
+
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browser/chromedriver.exe"	);
+		driver = new ChromeDriver();
+		driver.get("https://www.inmetrics.com.br/");
+		
+		//VERIFICA SE O ELEMENTO CONTIDO NA PAGINA DE VAGAS ESTA PRESENTE NA TELA
+		elemento= driver.findElement(By.id("section-jobs"));
+		
+	
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		//driver.close();
+	}
+
+	@Test
+	public void TestBotaoVagas() {
+		
+	
+		if(elemento.isDisplayed()){
+			
+			System.out.println("Acesso confirmado");
+			
+			
+		}
+		
+	}
+
+}

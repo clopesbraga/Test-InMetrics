@@ -1,0 +1,47 @@
+package br.com.ExcucaoTestes;
+
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import br.com.BaseTestes.CarregaDriver;
+
+public class TestInMetrics{
+	
+	CarregaDriver testes;
+
+	@Before
+	public void setUp() throws Exception {
+		
+		testes = new CarregaDriver();
+
+		
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		
+		testes.driver.close();
+	
+	}
+
+	@Test
+	public void TestBotaoVagas() {
+		
+			testes.idSelector("seciton-jobs");
+			
+			if(testes.elemento.isDisplayed()){
+				
+				System.out.println("Acesso com sucesso");
+			}
+			
+		}
+		
+	}
+
+

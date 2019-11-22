@@ -1,0 +1,21 @@
+package br.com.ExcucaoTestes;
+
+
+
+import br.com.BaseTestes.CarregaConexaoWeb;
+
+public class TestListaFilmes {
+	
+	
+	public static void main(String[] args) throws Exception {
+ 
+		CarregaConexaoWeb carregaWeb = new CarregaConexaoWeb();
+		
+		//IMPRIME O RESULTADO DO MÉTODO NA TELA
+		System.out.println(carregaWeb.sendGet());
+	
+ 
+	}
+	
+
+}

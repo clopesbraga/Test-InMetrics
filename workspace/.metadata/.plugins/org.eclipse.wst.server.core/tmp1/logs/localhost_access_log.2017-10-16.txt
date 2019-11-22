@@ -1,0 +1,10 @@
+127.0.0.1 - - [16/Oct/2017:23:05:46 -0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:05:47 -0200] "GET /Chamados/Index HTTP/1.1" 200 312
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:05:50 -0200] "GET /Chamados/NovoChamado HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:06:02 -0200] "GET /Chamados/NovoChamado?txtTitulo=Cleiton&txtConteudo=Ola+Mundo+ HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:06:12 -0200] "GET /Chamados/NovoChamado?txtTitulo=&txtConteudo= HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:06:14 -0200] "GET /Chamados/NovoChamado?txtTitulo=&txtConteudo= HTTP/1.1" 200 448
+127.0.0.1 - - [16/Oct/2017:23:10:31 -0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:10:32 -0200] "GET /Chamados/NovoChamado HTTP/1.1" 200 462
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:10:37 -0200] "POST /Chamados/NovoChamado HTTP/1.1" 200 19
+0:0:0:0:0:0:0:1 - - [16/Oct/2017:23:10:49 -0200] "POST /Chamados/NovoChamado HTTP/1.1" 200 -
