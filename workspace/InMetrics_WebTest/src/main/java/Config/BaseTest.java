@@ -13,6 +13,11 @@ public class BaseTest {
 	
 	public WebDriver driver;
 	public	WebElement elemento;
+	private String texto;
+	private long ms = 0;
+	private long splashTime = 3000;
+	private boolean splashActive = true;
+	private boolean paused = false;
 	
 	
 	public void AbreNavegador() {
@@ -20,26 +25,22 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browser/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("https://www.inmetrics.com.br/");
-		
+			
 	}
 	
 	public WebElement ConfereXpath(String xpath) {
 		
-		elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
-		
+		texto=xpath;
+        elemento = driver.findElement(By.xpath("//a[contains(text(),'"+texto+"')]"));
+
 		return elemento;
 	
 	}
 	
 	public void AcionaBotoes(){
-	
 		
-		if(elemento.isEnabled()){	
-			elemento.click();
+	 if(elemento.isEnabled()){elemento.click();}
 		
-			
-		}
-
 	}
 
 }

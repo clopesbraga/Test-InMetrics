@@ -11,9 +11,9 @@ INDEX VERSION 1.127+C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\.
 710873945.index
 2165540797.index
 2198442403.index
-751621593.index
-2492909726.index
 3263897811.index
+2492909726.index
+751621593.index
 1233919542.index
 202638269.index
 204561870.index
@@ -25,8 +25,8 @@ INDEX VERSION 1.127+C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\.
 3347977244.index
 2847350346.index
 525049421.index
-1419963304.index
 1860485910.index
+1419963304.index
 379161361.index
 3342774685.index
 2832843522.index
