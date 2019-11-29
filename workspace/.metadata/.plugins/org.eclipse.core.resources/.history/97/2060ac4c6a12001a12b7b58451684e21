@@ -14,7 +14,8 @@ import Pagina.InMetrics;
 public class DefAcesso {
 	
 	InMetrics inmetrics = new InMetrics();
-	
+	private int tmp=30;
+	private int i;
 	
 	
 	@Given("Estar na pagina  InMetrics")
@@ -24,7 +25,7 @@ public class DefAcesso {
 		
 	}
 	
-	@When("Clicar na opcao de Carreiras")
+	@When("Clicar na pagina de Carreiras")
 	public void VerificaPagina(){
 		
 	   inmetrics.VerificaElemento("Carreiras");

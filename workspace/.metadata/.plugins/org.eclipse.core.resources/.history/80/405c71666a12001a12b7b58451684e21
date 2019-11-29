@@ -14,7 +14,8 @@ import Pagina.InMetrics;
 public class DefAcesso {
 	
 	InMetrics inmetrics = new InMetrics();
-	
+	private int tmp=30;
+	private int i;
 	
 	
 	@Given("Estar na pagina  InMetrics")

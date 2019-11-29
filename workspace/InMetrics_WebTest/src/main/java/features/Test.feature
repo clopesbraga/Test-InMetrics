@@ -6,7 +6,7 @@ Feature: Test Web
     
     
     Given Estar na pagina  InMetrics
-    When  Clicar na opcao de Carreiras
+    When  Clicar na pagina de Carreiras
     Then  Acionar o botão confira nossas vagas 
    
 

@@ -4105,3 +4105,35 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Failure to fin
 2019-11-29 02:12:43,883 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
 2019-11-29 02:12:43,887 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-29 02:12:43,888 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:27:45,955 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:27:45,957 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:27:45,959 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:27:45,962 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:29:18,969 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:29:18,970 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:29:18,973 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:29:18,974 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:29:41,291 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:29:41,291 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:29:41,302 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:29:41,303 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:32:59,748 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:32:59,772 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:32:59,789 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:32:59,790 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:36:26,107 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:36:26,107 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:36:26,110 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:36:26,113 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:37:15,651 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:37:15,728 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:37:15,746 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:37:15,747 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:37:58,718 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:37:58,719 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:37:58,724 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:37:58,725 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-29 02:38:29,567 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:38:29,584 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-29 02:38:29,601 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-29 02:38:29,602 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
