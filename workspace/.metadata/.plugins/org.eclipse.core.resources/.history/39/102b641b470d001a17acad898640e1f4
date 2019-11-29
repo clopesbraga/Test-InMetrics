@@ -1,9 +1,0 @@
-package br.com.DocumentacaoTestes;
-import io.cucumber.java.en.Given;
-
-public class Definicoes {
-	
-	@Given("Carrega Pagina");
-	
-
-}

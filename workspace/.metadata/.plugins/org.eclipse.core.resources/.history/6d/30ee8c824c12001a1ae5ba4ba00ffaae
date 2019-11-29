@@ -1,0 +1,15 @@
+package Executar;
+
+import io.cucumber.*;
+import io.cucumber.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		glue= {"test"},
+		features = {"./src/features/Test.feature"}
+		)
+
+public class App 
+{
+ 
+}

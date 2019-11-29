@@ -1,0 +1,26 @@
+package Pagina;
+
+import org.openqa.selenium.WebElement;
+
+import Config.BaseTest;
+
+public class InMetrics extends BaseTest{
+	
+	public void CarregarPagina(){
+		
+		AbreNavegador();
+		
+	}
+	
+    public WebElement AcessoAutomatico1 (){
+		
+		return ConfereXpath("Carreiras");
+	}
+    
+    public void AcessoAutomatico2(){
+    	
+    	AcionaBotoes();
+    	
+    }
+	
+}

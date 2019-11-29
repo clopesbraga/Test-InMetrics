@@ -1,0 +1,13 @@
+
+Feature: Test Web
+  
+  
+  Scenario: Acessa pagina vagas da InMetrics
+    
+    
+    Given Estar na pagina  InMetrics / carreiras
+    When  clicar no botão "confira nossas vagas"
+    Then  Acionar o botão 'confira nossas vagas' 
+   
+
+  

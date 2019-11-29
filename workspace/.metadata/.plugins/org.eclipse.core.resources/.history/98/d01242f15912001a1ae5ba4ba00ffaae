@@ -1,0 +1,42 @@
+package Definicoes;
+
+import java.lang.annotation.Target;
+import io.cucumber.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import Pagina.InMetrics;
+
+public class DefAcesso {
+	
+	InMetrics inmetrics = new InMetrics();
+	
+	@Given("Estar na pagina  InMetrics")
+	public void AbrirPagina(){
+		
+		inmetrics.AbreNavegador();	
+		
+	}
+	
+	@When("Clicar na pagina de Carreiras")
+	public void PressionaOpcaoCarreiras(){
+		
+		inmetrics.AcessoAutomatico1();
+		
+	}
+	
+	@Then("Acionar o botão confira nossas vagas")
+	public void PressionaBotaoVagas(){
+		
+		inmetrics.AcessoAutomatico2();
+		
+	}
+	
+	
+
+	
+
+	
+	
+	
+}

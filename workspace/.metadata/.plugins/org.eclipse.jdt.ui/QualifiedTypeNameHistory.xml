@@ -29,4 +29,7 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.IO"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="br.com.ProjectTest.Definitions.WebDefinitions"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
 </qualifiedTypeNameHistroy>

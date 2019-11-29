@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="2" ignored="0">
+  <testsuite name="demo.InMetrics_WebTest.AppTest" time="0.472">
+    <testsuite name="Feature: Test Web" time="0.472">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" time="0.472">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\browser\chromedriver.exe&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at Config.BaseTest.AbreNavegador(BaseTest.java:20)&#13;
+	at Definicoes.DefAcesso.AbrirPagina(DefAcesso.java:17)&#13;
+	at ✽.Estar na pagina  InMetrics(file:src/test/java/features/Test.feature:8)&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "Acionar o botão 'confira nossas vagas'" is undefined&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

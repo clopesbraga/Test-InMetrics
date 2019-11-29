@@ -1,0 +1,11 @@
+package Definicoes;
+
+import Pagina.InMetrics;
+
+public class DefAcesso {
+	
+	InMetrics inmetrics = new InMetrics();
+	
+	
+
+}
