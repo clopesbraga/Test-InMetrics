@@ -1,0 +1,22 @@
+package Execucao;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		glue= {"Definicoes"},
+		features = {"./src/main/java/features/Teste.feature"}
+		)
+
+public class App 
+{
+	
+	
+
+}

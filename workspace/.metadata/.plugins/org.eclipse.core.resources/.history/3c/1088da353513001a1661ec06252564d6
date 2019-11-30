@@ -1,0 +1,29 @@
+package Definicoes;
+
+import Pagina.Swapi;
+import io.cucumber.java.en.Given;
+
+public class DefAcesso {
+	
+	Swapi swapi = new Swapi();
+	
+	
+	@Given("Estar na pagina  Swapi.co")
+	public void AcessarPagina(){
+		
+		try {
+			swapi.CarregarPagina();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	
+	public void MostrarLista(){
+		
+		swapi.Resultado();
+	}
+	
+}

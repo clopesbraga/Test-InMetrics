@@ -4315,3 +4315,456 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-11-29 14:05:34,360 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
 2019-11-29 14:05:34,363 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-29 14:05:34,364 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-30 01:32:00,345 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\WebService.Test\pom.xml
+2019-11-30 01:32:09,152 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:WebService.Test:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\WebService.Test\pom.xml.
+2019-11-30 01:32:11,314 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebService.Test/src/main/java
+2019-11-30 01:32:11,338 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebService.Test/src/test/java
+2019-11-30 01:32:12,202 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2019-11-30 01:32:13,317 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:32:13,318 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\WebService.Test\src\main\resources
+2019-11-30 01:32:13,321 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:32:13,322 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\WebService.Test\src\test\resources
+2019-11-30 01:40:26,679 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml
+2019-11-30 01:40:32,668 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 01:40:34,307 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InMetrics_WebServiceTest/src/main/java
+2019-11-30 01:40:34,376 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /InMetrics_WebServiceTest/src/test/java
+2019-11-30 01:40:35,036 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2019-11-30 01:40:35,794 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:40:35,795 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:40:35,824 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:40:35,826 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:40:56,788 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:43:06,043 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 01:43:08,393 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:43:12,956 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:43:12,972 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:43:12,983 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:43:12,992 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:43:16,427 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:43:16,997 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:43:16,997 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:43:17,009 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:43:17,023 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:44:18,626 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 01:44:19,156 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:44:20,543 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:20,553 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:44:20,569 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:20,570 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:44:22,310 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:44:22,499 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:22,500 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:44:22,501 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:22,511 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:44:32,138 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:32,152 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:44:32,162 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:44:32,172 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:45:02,347 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:02,349 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:45:02,351 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:02,383 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:45:36,265 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:36,288 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:45:36,302 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:36,315 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:45:55,694 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:55,694 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:45:55,696 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:45:55,705 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:46:30,702 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:46:30,711 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:46:30,721 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:46:30,732 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:46:52,064 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:46:52,064 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:46:52,067 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:46:52,079 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:47:35,329 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:47:35,342 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:47:35,350 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:47:35,358 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:48:15,388 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:48:15,389 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-11-30 01:48:15,391 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:48:15,404 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-11-30 01:49:46,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:49:46,112 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:49:46,124 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:49:46,134 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:56:06,542 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 01:56:08,648 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20190722/json-20190722.pom
+2019-11-30 01:56:08,834 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20190722/json-20190722.pom
+2019-11-30 01:56:08,911 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:56:09,408 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20190722/json-20190722.jar
+2019-11-30 01:56:09,875 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20190722/json-20190722.jar
+2019-11-30 01:56:11,705 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:56:11,718 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:56:11,732 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:56:11,745 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:56:13,476 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 01:56:13,721 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:56:13,733 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:56:13,743 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:56:13,743 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 01:57:27,354 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:57:27,354 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 01:57:27,356 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 01:57:27,356 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:02:23,956 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:02:23,967 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:02:23,979 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:02:23,979 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:04:48,745 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:04:48,746 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:04:48,749 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:04:48,749 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:05:25,259 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:05:25,281 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:05:25,297 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:05:25,298 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:05:46,569 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:05:46,572 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:05:46,573 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:05:46,574 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:13:50,899 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:13:50,911 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:13:50,919 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:13:50,920 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:14:49,233 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:14:49,233 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:14:49,235 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:14:49,235 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:17:03,227 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:17:03,235 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:17:03,245 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:17:03,246 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:19:14,935 [Worker-29] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/mars/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:192) [org.eclipse.recommenders.models_2.3.0.v20160216-1255.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:174) [org.eclipse.recommenders.models_2.3.0.v20160216-1255.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:165) [org.eclipse.recommenders.models.rcp_2.3.0.v20160216-1255.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.3.0.v20160216-1255.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/mars/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421) ~[na:na]
+	... 8 common frames omitted
+2019-11-30 02:19:25,843 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:19:25,844 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:19:25,845 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:19:25,855 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:21:57,268 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:21:57,281 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:21:57,292 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:21:57,302 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:22:44,870 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:22:44,871 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:22:44,872 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:22:44,884 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:22:54,178 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:22:54,187 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:22:54,195 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:22:54,202 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:23:12,203 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:23:12,204 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:23:12,205 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:23:12,217 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:25:39,564 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:25:39,577 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:25:39,589 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:25:39,600 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:26:12,382 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:26:12,383 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:26:12,384 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:26:12,397 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:30:55,392 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:30:55,405 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:30:55,422 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:30:55,435 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:30:59,988 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:30:59,988 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:30:59,989 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:30:59,997 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:32:52,082 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:32:52,084 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:32:52,112 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:32:52,142 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:33:44,211 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:33:44,212 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:33:44,213 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:33:44,221 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:36:45,543 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:36:45,556 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:36:45,569 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:36:45,579 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:39:30,076 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:39:30,076 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:39:30,078 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:39:30,110 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:47:05,343 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:47:05,360 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:47:05,374 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:47:05,385 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:49:13,542 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:13,543 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:49:13,544 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:13,554 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:49:44,887 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:44,895 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:49:44,906 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:44,914 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:49:59,594 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:59,595 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:49:59,596 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:49:59,603 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:52:25,651 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 02:52:27,860 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 02:52:29,599 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:52:29,620 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:52:29,629 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:52:29,641 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:52:32,326 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 02:52:32,825 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:52:32,838 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:52:32,849 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:52:32,849 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:53:24,421 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: InMetrics:InMetrics_WebServiceTest:0.0.1-SNAPSHOT @ C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\pom.xml.
+2019-11-30 02:53:25,921 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-3/selenium-java-4.0.0-alpha-3.pom
+2019-11-30 02:53:26,183 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-3/selenium-java-4.0.0-alpha-3.pom
+2019-11-30 02:53:26,430 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-3/selenium-api-4.0.0-alpha-3.pom
+2019-11-30 02:53:26,709 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-3/selenium-api-4.0.0-alpha-3.pom
+2019-11-30 02:53:26,961 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-3/selenium-chrome-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:27,253 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-3/selenium-chrome-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:27,488 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.pom
+2019-11-30 02:53:27,768 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.pom
+2019-11-30 02:53:28,018 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/27.1-jre/guava-parent-27.1-jre.pom
+2019-11-30 02:53:28,304 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/27.1-jre/guava-parent-27.1-jre.pom
+2019-11-30 02:53:28,548 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+2019-11-30 02:53:28,836 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+2019-11-30 02:53:29,080 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+2019-11-30 02:53:29,362 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+2019-11-30 02:53:29,611 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+2019-11-30 02:53:29,895 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom
+2019-11-30 02:53:30,148 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+2019-11-30 02:53:30,432 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom
+2019-11-30 02:53:30,679 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom
+2019-11-30 02:53:30,964 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom
+2019-11-30 02:53:31,217 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom
+2019-11-30 02:53:31,496 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom
+2019-11-30 02:53:31,746 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.2.0/error_prone_parent-2.2.0.pom
+2019-11-30 02:53:32,039 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.2.0/error_prone_parent-2.2.0.pom
+2019-11-30 02:53:32,250 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom
+2019-11-30 02:53:32,436 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom
+2019-11-30 02:53:32,643 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom
+2019-11-30 02:53:32,845 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.17/animal-sniffer-parent-1.17.pom
+2019-11-30 02:53:33,047 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+2019-11-30 02:53:33,380 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+2019-11-30 02:53:33,586 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-3/selenium-chromium-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:33,758 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-3/selenium-chromium-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:33,966 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools/4.0.0-alpha-3/selenium-devtools-4.0.0-alpha-3.pom
+2019-11-30 02:53:34,165 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools/4.0.0-alpha-3/selenium-devtools-4.0.0-alpha-3.pom
+2019-11-30 02:53:34,388 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.0.0-alpha-3/selenium-json-4.0.0-alpha-3.pom
+2019-11-30 02:53:34,581 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.0.0-alpha-3/selenium-json-4.0.0-alpha-3.pom
+2019-11-30 02:53:34,786 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-3/selenium-remote-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:34,966 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-3/selenium-remote-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:35,168 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.0.1/okhttp-4.0.1.pom
+2019-11-30 02:53:35,356 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.0.1/okhttp-4.0.1.pom
+2019-11-30 02:53:35,590 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.2.2/okio-2.2.2.pom
+2019-11-30 02:53:35,767 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.2.2/okio-2.2.2.pom
+2019-11-30 02:53:35,969 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom
+2019-11-30 02:53:36,139 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.60/kotlin-stdlib-1.2.60.pom
+2019-11-30 02:53:36,337 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom
+2019-11-30 02:53:36,522 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.60/kotlin-stdlib-common-1.2.60.pom
+2019-11-30 02:53:36,712 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+2019-11-30 02:53:36,899 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+2019-11-30 02:53:37,095 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40.pom
+2019-11-30 02:53:37,266 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40.pom
+2019-11-30 02:53:37,464 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.40/kotlin-stdlib-common-1.3.40.pom
+2019-11-30 02:53:37,639 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.40/kotlin-stdlib-common-1.3.40.pom
+2019-11-30 02:53:37,840 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.pom
+2019-11-30 02:53:38,020 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.pom
+2019-11-30 02:53:38,215 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentracing/parent/0.33.0/parent-0.33.0.pom
+2019-11-30 02:53:38,426 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentracing/parent/0.33.0/parent-0.33.0.pom
+2019-11-30 02:53:38,636 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.pom
+2019-11-30 02:53:38,829 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.pom
+2019-11-30 02:53:39,019 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.12/byte-buddy-parent-1.9.12.pom
+2019-11-30 02:53:39,203 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.12/byte-buddy-parent-1.9.12.pom
+2019-11-30 02:53:39,449 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.0.0-alpha-3/selenium-http-4.0.0-alpha-3.pom
+2019-11-30 02:53:39,635 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.0.0-alpha-3/selenium-http-4.0.0-alpha-3.pom
+2019-11-30 02:53:39,854 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-3/selenium-edge-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:40,410 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-3/selenium-edge-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:40,637 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-3/selenium-edgehtml-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:40,820 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-3/selenium-edgehtml-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,017 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-3/selenium-firefox-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,195 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-3/selenium-firefox-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,385 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-3/selenium-firefox-xpi-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,566 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-3/selenium-firefox-xpi-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,748 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-3/selenium-ie-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:41,921 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-3/selenium-ie-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:42,111 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-3/selenium-opera-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:42,285 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-3/selenium-opera-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:42,484 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-3/selenium-safari-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:42,769 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-3/selenium-safari-driver-4.0.0-alpha-3.pom
+2019-11-30 02:53:43,068 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-3/selenium-support-4.0.0-alpha-3.pom
+2019-11-30 02:53:43,302 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-3/selenium-support-4.0.0-alpha-3.pom
+2019-11-30 02:53:43,353 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 02:53:43,948 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-3/selenium-java-4.0.0-alpha-3.jar
+2019-11-30 02:53:44,244 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-3/selenium-java-4.0.0-alpha-3.jar
+2019-11-30 02:53:44,621 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-3/selenium-api-4.0.0-alpha-3.jar
+2019-11-30 02:53:46,121 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-3/selenium-api-4.0.0-alpha-3.jar
+2019-11-30 02:53:46,368 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-3/selenium-chrome-driver-4.0.0-alpha-3.jar
+2019-11-30 02:53:46,660 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-3/selenium-chrome-driver-4.0.0-alpha-3.jar
+2019-11-30 02:53:46,912 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+2019-11-30 02:54:06,407 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar
+2019-11-30 02:54:06,668 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+2019-11-30 02:54:06,947 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+2019-11-30 02:54:07,197 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+2019-11-30 02:54:07,480 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+2019-11-30 02:54:07,728 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+2019-11-30 02:54:08,284 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+2019-11-30 02:54:08,530 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+2019-11-30 02:54:09,397 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar
+2019-11-30 02:54:09,554 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+2019-11-30 02:54:09,870 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar
+2019-11-30 02:54:10,040 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+2019-11-30 02:54:10,237 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar
+2019-11-30 02:54:10,392 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-3/selenium-chromium-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:10,648 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-3/selenium-chromium-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:10,811 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools/4.0.0-alpha-3/selenium-devtools-4.0.0-alpha-3.jar
+2019-11-30 02:54:11,702 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools/4.0.0-alpha-3/selenium-devtools-4.0.0-alpha-3.jar
+2019-11-30 02:54:11,854 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.0.0-alpha-3/selenium-http-4.0.0-alpha-3.jar
+2019-11-30 02:54:12,513 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.0.0-alpha-3/selenium-http-4.0.0-alpha-3.jar
+2019-11-30 02:54:12,680 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.0.0-alpha-3/selenium-json-4.0.0-alpha-3.jar
+2019-11-30 02:54:13,077 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.0.0-alpha-3/selenium-json-4.0.0-alpha-3.jar
+2019-11-30 02:54:13,235 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-3/selenium-edge-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:13,542 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-3/selenium-edge-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:13,703 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-3/selenium-edgehtml-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:13,936 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-3/selenium-edgehtml-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:14,103 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-3/selenium-firefox-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:14,566 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-3/selenium-firefox-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:14,733 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-3/selenium-firefox-xpi-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:17,226 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-3/selenium-firefox-xpi-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:17,372 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-3/selenium-ie-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:17,618 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-3/selenium-ie-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:17,769 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-3/selenium-opera-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:18,042 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-3/selenium-opera-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:18,224 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-3/selenium-remote-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:19,556 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-3/selenium-remote-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:19,778 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.0.1/okhttp-4.0.1.jar
+2019-11-30 02:54:25,464 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/4.0.1/okhttp-4.0.1.jar
+2019-11-30 02:54:25,721 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar
+2019-11-30 02:54:27,369 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/squareup/okio/okio/2.2.2/okio-2.2.2.jar
+2019-11-30 02:54:27,572 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40.jar
+2019-11-30 02:54:32,969 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.3.40/kotlin-stdlib-1.3.40.jar
+2019-11-30 02:54:33,119 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.40/kotlin-stdlib-common-1.3.40.jar
+2019-11-30 02:54:34,022 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.40/kotlin-stdlib-common-1.3.40.jar
+2019-11-30 02:54:34,177 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+2019-11-30 02:54:34,439 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+2019-11-30 02:54:34,595 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar
+2019-11-30 02:54:34,926 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar
+2019-11-30 02:54:35,113 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar
+2019-11-30 02:54:54,351 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar
+2019-11-30 02:54:54,497 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-3/selenium-safari-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:54,882 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-3/selenium-safari-driver-4.0.0-alpha-3.jar
+2019-11-30 02:54:55,052 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-3/selenium-support-4.0.0-alpha-3.jar
+2019-11-30 02:54:57,125 [Worker-47] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-3/selenium-support-4.0.0-alpha-3.jar
+2019-11-30 02:55:05,439 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:55:05,447 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:55:05,458 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:55:05,458 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:55:08,003 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-junit:pom:1.2.6 has been relocated to io.cucumber:cucumber-junit:pom:1.2.6
+2019-11-30 02:55:08,836 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:55:08,837 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:55:08,838 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:55:08,851 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 02:58:28,461 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:58:28,470 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 02:58:28,482 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 02:58:28,490 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:01:20,334 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:01:20,335 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:01:20,336 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:01:20,350 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:01:29,929 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:01:29,939 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:01:29,948 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:01:29,956 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:02:54,520 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:02:54,521 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:02:54,522 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:02:54,535 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:05:13,618 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:05:13,632 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:05:13,644 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:05:13,653 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:05:23,714 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:05:23,715 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:05:23,716 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:05:23,725 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:07:09,543 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:07:09,551 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:07:09,559 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:07:09,566 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:07:37,649 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:07:37,649 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:07:37,650 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:07:37,662 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:08:12,716 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:08:12,726 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:08:12,734 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:08:12,742 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:09:45,205 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:09:45,205 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:09:45,206 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:09:45,242 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:10:26,688 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-11-30 03:11:35,455 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:11:35,466 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:11:35,476 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:11:35,477 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:11:53,011 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:11:53,012 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:11:53,032 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:11:53,041 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:13:32,071 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:13:32,071 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:13:32,085 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:13:32,107 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:15:32,542 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:15:32,543 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:15:32,566 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:15:32,577 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:15:55,123 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:15:55,123 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:15:55,131 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:15:55,139 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:18:55,672 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:18:55,673 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:18:55,684 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:18:55,692 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:19:16,718 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:19:16,718 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:19:16,749 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:19:16,791 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:19:32,454 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:19:32,455 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:19:32,468 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:19:32,518 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:21:05,963 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:21:05,964 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:21:05,975 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:21:05,985 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources
+2019-11-30 03:30:26,939 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:30:26,939 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\main\resources
+2019-11-30 03:30:26,949 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-30 03:30:26,959 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebServiceTest\src\test\resources

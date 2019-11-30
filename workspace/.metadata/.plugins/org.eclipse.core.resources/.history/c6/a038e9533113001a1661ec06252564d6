@@ -1,0 +1,13 @@
+package Pagina;
+
+import Config.BaseTeste;
+
+public class Swapi extends BaseTeste{
+	
+	public void CarregarPagina(){
+		
+		sendGet();
+	}
+	
+
+}

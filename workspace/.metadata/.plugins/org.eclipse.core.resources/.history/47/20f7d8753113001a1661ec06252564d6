@@ -1,0 +1,18 @@
+package Pagina;
+
+import Config.BaseTeste;
+
+public class Swapi extends BaseTeste{
+	
+	public void CarregarPagina(){
+		
+		try {
+			AcessaSite();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+
+}

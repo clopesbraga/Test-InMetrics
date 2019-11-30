@@ -1,0 +1,15 @@
+package Config;
+
+public class BaseTeste {
+	
+	
+	private String [] produtorarray,diretorarray,filmearray,respostas;
+	private int  i;
+	private String resposta;
+	private final String DIRETOR="George Lucas";
+	private final String PRODUTOR="Rick McCallum";
+	private final String USER_AGENT = "Mozilla/5.0";
+	
+	
+
+}

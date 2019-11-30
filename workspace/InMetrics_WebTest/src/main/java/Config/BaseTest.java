@@ -14,10 +14,7 @@ public class BaseTest {
 	public WebDriver driver;
 	public	WebElement elemento;
 	private String texto;
-	private long ms = 0;
-	private long splashTime = 3000;
-	private boolean splashActive = true;
-	private boolean paused = false;
+
 	
 	
 	public void AbreNavegador() {
@@ -30,8 +27,7 @@ public class BaseTest {
 	
 	public WebElement ConfereXpath(String xpath) {
 		
-		texto=xpath;
-        elemento = driver.findElement(By.xpath("//a[contains(text(),'"+texto+"')]"));
+        elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
 
 		return elemento;
 	

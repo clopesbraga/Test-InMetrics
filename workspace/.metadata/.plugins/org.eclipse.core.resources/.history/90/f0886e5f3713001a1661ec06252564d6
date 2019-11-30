@@ -1,0 +1,14 @@
+
+@tag
+Feature: Teste Web Service
+
+
+  @tag1
+  Scenario: Acessar site Swapi e buscar lista de filmes
+    
+    
+    Given Acessar pagina Swapi
+    When Buscar lista de filmes
+    Then Mostrar Filmes produzidos por George Lucas e Rick McCallum
+
+

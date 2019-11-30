@@ -1,0 +1,7 @@
+package Definicoes;
+
+public class DefAcesso {
+	
+	Swapi swapi = new Swapi();
+
+}

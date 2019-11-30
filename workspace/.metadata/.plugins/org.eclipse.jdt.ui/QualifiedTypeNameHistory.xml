@@ -32,4 +32,16 @@
 <fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
 <fullyQualifiedTypeName name="br.com.ProjectTest.Definitions.WebDefinitions"/>
 <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="org.json.JSONException"/>
+<fullyQualifiedTypeName name="org.json.JSONArray"/>
+<fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="Config.BaseTeste"/>
+<fullyQualifiedTypeName name="Pagina.Swapi"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+<fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
 </qualifiedTypeNameHistroy>
