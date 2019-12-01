@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="demo.InMetrics_WebTest.AppTest" incomplete="true">
+    <testsuite name="Feature: Test Web" incomplete="true">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

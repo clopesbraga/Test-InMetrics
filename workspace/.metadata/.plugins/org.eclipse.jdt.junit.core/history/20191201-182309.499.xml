@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="App" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Executar.App" time="17.022">
+    <testsuite name="Feature: Test Web" time="17.022">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" time="17.022">
+        <error>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NP91', ip: '192.168.1.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Cleiton\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d101e40df87adcb16bf8e9ac78362086&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;
+	at Config.BaseTest.AcionaBotoes(BaseTest.java:47)&#13;
+	at Pagina.InMetrics.Clicar(InMetrics.java:61)&#13;
+	at Definicoes.DefAcesso.PressionaBotao(DefAcesso.java:37)&#13;
+	at ✽.Acionar o botão confira nossas vagas(file:src/main/java/features/Test.feature:10)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

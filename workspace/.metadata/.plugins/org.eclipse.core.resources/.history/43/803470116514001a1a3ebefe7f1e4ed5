@@ -1,0 +1,71 @@
+package Config;
+
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+public class BaseTest {
+	
+	public WebDriver driver;
+	public	WebElement elemento;
+	public WebDriverWait wait;
+	
+	public void AbreNavegador() {
+		
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browser/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.navigate().to("https://www.inmetrics.com.br/");
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+			
+	}
+	
+	public WebElement ConfereAcesso(String xpath) {
+		
+			
+		   	
+          //elemento = driver.findElement(By.xpath("//a[contains(text(),'"+xpath+"')]"));
+		    elemento = wait.until(ExpectedCondition<driver,>))	
+		
+
+		return elemento;
+	
+	}
+		
+	
+	public void AcionaBotoes(){
+		
+		
+	 if(elemento.isEnabled()){
+		
+		 
+		 elemento.click();
+		 
+	 }
+		
+	}
+	
+	public void MensagemFinalTeste(){
+		
+		if(elemento.equals("login")){
+			
+			System.out.println("Teste Realizado com sucesso");
+		
+		
+		}else{
+			
+			System.out.println("Teste falhou Tente novamente!");
+				
+			}
+		
+		
+	}
+
+}

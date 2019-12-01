@@ -10,6 +10,7 @@ public class DefAcesso {
 	Swapi swapi = new Swapi();
 	
 	
+	
 	@Given("Estar na pagina Swapi.com.br")
 	public void AcessarPagina(){
 		
@@ -35,7 +36,7 @@ public class DefAcesso {
 	
 
 	@Then("Mostrar Filmes produzidos por George Lucas e Rick McCallum")
-	public void MostrarResultado(){
+	public void ResultadoOPesquisa(){
 		
 		swapi.Resultado();
 	}

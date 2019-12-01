@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="demo.InMetrics_WebTest.AppTest" time="20.118">
+    <testsuite name="Feature: Test Web" time="20.118">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" time="20.118">
+        <error>java.lang.ClassCastException: org.openqa.selenium.support.ui.WebDriverWait cannot be cast to org.openqa.selenium.WebDriver&#13;
+	at Config.BaseTest.ConfereAcesso(BaseTest.java:38)&#13;
+	at Pagina.InMetrics.VerificaElemento(InMetrics.java:19)&#13;
+	at Definicoes.DefAcesso.VerificaPagina(DefAcesso.java:30)&#13;
+	at ✽.Clicar na opcao de Carreiras(file:src/test/java/features/Test.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

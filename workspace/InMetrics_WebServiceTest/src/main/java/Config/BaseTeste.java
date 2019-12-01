@@ -14,19 +14,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTeste {
 	
 	public WebDriver driver;
-	private String [] produtorarray,diretorarray,filmearray,respostas;
+	private String [] produtorarray,diretorarray,filmearray,respostas,textos;
 	private int  i;
-	private String resposta;
+	private String resposta, texto;
 	private final String DIRETOR="George Lucas";
 	private final String PRODUTOR="Rick McCallum";
 	private final String USER_AGENT = "Mozilla/5.0";
 	
-	
-public void AbreNavegador() {
+	//MOSTRA MENSAGEM INFORMANDO O ACESSO AO SITE
+	public void MensagemAcesso() {
 		
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/browser/chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.navigate().to("https://swapi.co/api/films/");
+	
+	     System.out.println("Acessando https://swapi.co");
 			
 	}
 	
@@ -34,6 +33,7 @@ public void AbreNavegador() {
 	// METODO PARA BUSCAR NO SITE A LISTA DE FILMES
 	public void PesquisarLista() throws Exception {
 			
+				System.out.println("Listando Filmes...");
 				String url = "https://swapi.co/api/films/?format=json";
 				 
 				URL obj = new URL(url);
@@ -65,28 +65,36 @@ public void AbreNavegador() {
 					 	// SERÁ VERFICARDO TUDO QUE ESTIVER NO CAMPO "RESULTS"
 		                JSONArray arrayListFilmes = objJSON.getJSONArray("results");
 		                
+		                
 		                //OS VALORES SERÃO DIVIDAS ENTRE AS VARIAVEIS 
 		                diretorarray  = new String[arrayListFilmes.length()];
 		                produtorarray = new String[arrayListFilmes.length()];
 		                filmearray    = new String[arrayListFilmes.length()];
+		                respostas     = new String[arrayListFilmes.length()];
+		                textos     = new String[arrayListFilmes.length()];
 		                
+		                System.out.println("Os filmes dirigidos por "+DIRETOR+" e produzidos por "+PRODUTOR+ " são:");
 		                // CONDICIONAL QUE VERIFICA A ARRAY ATÉ ATINGIR O FINAL DELA
 		                for (i = 0; i < arrayListFilmes.length(); i++) {
 		                	
 		                	diretorarray[i]  =  arrayListFilmes.getJSONObject(i).getString("director");
 		                	produtorarray[i] =  arrayListFilmes.getJSONObject(i).getString("producer");
 		                	filmearray[i]    =  arrayListFilmes.getJSONObject(i).getString("title");
-		 	              
+		                	
+		      
 		                	/* SE OS VALORES FOREM COMPATIVEIS COM NOME DO DIRETOR E PRODUTOR
 		                	   APARECERÁ O FILME EM QUE ELES TRABALHARAM*/
-		                	if(diretorarray[i].equals(DIRETOR)&& produtorarray[i].equals(PRODUTOR)){
+		                	if(diretorarray[i].equals(DIRETOR) && produtorarray[i].equals(PRODUTOR)){
 		                		
-		                		resposta=filmearray[i].toString();
+		                		respostas[i]=filmearray[i].toString();
+		                		texto =respostas[i];
+		                		Mostraresultado();
+		              
 		                	}
 		                   
 		                 	                  
 		                }
-						            
+		                     
 		                
 				}catch(JSONException e){
 					
@@ -94,14 +102,14 @@ public void AbreNavegador() {
 					
 				}
 				
-							//return resposta;
-					
+				
+				
 			}
 	
-	
+	// MOSTRA O RESULTADO DA PESQUISA
 	public void Mostraresultado(){
 		
-		System.out.println(resposta);	
+		System.out.println(texto.toString());
 		
 		
 	}

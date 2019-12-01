@@ -6,7 +6,7 @@ public class Swapi extends BaseTeste{
 	
 	public void CarregarPagina() throws Exception{
 		
-		AbreNavegador();
+		MensagemAcesso();
 		
 	}
 	
@@ -25,7 +25,6 @@ public class Swapi extends BaseTeste{
 	
 	public void Resultado(){
 		
-		Mostraresultado();
 		
 	}
 

@@ -1,0 +1,113 @@
+package Definicoes;
+
+import java.lang.annotation.Target;
+import java.text.ParseException;
+
+import javax.swing.text.html.HTMLEditorKit.ParserCallback;
+
+import io.cucumber.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import Pagina.InMetrics;
+
+public class DefAcesso {
+	
+	InMetrics inmetrics = new InMetrics();
+	int ms=30000;
+	
+	
+	
+	@Given("Estar na pagina  InMetrics")
+	public void AbrirPagina(){
+		
+		inmetrics.AbreNavegador();	
+		
+	}
+	
+	@When("Clicar na opcao de Carreiras")
+	public void VerificaPagina(){
+		
+		Thread mythread = new Thread() {
+			
+			@Override
+			public void run() {
+				super.run();
+				 try {
+					 inmetrics.VerificaElemento("Carreiras");
+					sleep(ms);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}finally{}
+				
+			}
+			
+		};
+		mythread.start();
+		
+		inmetrics.Clicar();
+	   
+	   
+	}
+	
+	@Then("Acionar o botão confira nossas vagas")
+	public void PressionaBotao(){
+	
+		/*inmetrics.VerificaElemento("confira");
+		inmetrics.Clicar();
+		inmetrics.VerificaElemento("login");
+		inmetrics.MensagemFinalTeste();*/
+		
+		Thread thread1 = new Thread() {
+			
+			@Override
+			public void run() {
+				super.run();
+				 try {
+					 inmetrics.VerificaElemento("confira");
+					sleep(ms);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}finally{}
+				
+			}
+			
+		};
+		thread1.start();
+		
+		inmetrics.Clicar();
+		
+		
+		Thread thread2 = new Thread() {
+			
+			@Override
+			public void run() {
+				super.run();
+				 try {
+					 
+					sleep(ms);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}finally{}
+				
+			}
+			
+		};
+		thread2.start();
+		 //inmetrics.VerificaElemento("login");
+		 //inmetrics.Clicar();
+		
+		
+	}
+	
+	
+
+	
+
+	
+	
+	
+}

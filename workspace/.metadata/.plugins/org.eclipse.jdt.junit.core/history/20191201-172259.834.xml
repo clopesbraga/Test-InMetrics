@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="demo.InMetrics_WebTest.AppTest" time="271.785">
+    <testsuite name="Feature: Test Web" time="271.785">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" time="271.785">
+        <error>java.lang.NullPointerException&#13;
+	at Config.BaseTest.AcionaBotoes(BaseTest.java:45)&#13;
+	at Pagina.InMetrics.Clicar(InMetrics.java:27)&#13;
+	at Definicoes.DefAcesso.VerificaPagina(DefAcesso.java:49)&#13;
+	at ✽.Clicar na opcao de Carreiras(file:src/test/java/features/Test.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

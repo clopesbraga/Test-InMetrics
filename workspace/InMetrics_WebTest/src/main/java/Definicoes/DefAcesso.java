@@ -15,8 +15,6 @@ public class DefAcesso {
 	
 	InMetrics inmetrics = new InMetrics();
 	
-	
-	
 	@Given("Estar na pagina  InMetrics")
 	public void AbrirPagina(){
 		
@@ -27,23 +25,21 @@ public class DefAcesso {
 	@When("Clicar na opcao de Carreiras")
 	public void VerificaPagina(){
 		
-	   inmetrics.VerificaElemento("Carreiras");
-	   inmetrics.Clicar();
+		inmetrics.VerificaElemento("Carreiras");
+		inmetrics.Clicar();
 	}
 	
 	@Then("Acionar o botão confira nossas vagas")
 	public void PressionaBotao(){
 	
+	
 		inmetrics.VerificaElemento("confira");
 		inmetrics.Clicar();
+		inmetrics.VerificaElemento("login");
+		System.out.println(inmetrics.MensagemFinal());
+		
 		
 	}
-	
-	
-
-	
-
-	
 	
 	
 }

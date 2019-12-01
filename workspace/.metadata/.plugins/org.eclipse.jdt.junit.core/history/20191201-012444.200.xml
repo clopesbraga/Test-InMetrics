@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest (1)" project="InMetrics_WebServiceTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Execuar.AppTest" time="3.08">
+    <testsuite name="Feature: Teste Web Service" time="3.08">
+      <testcase name="Acessar site Swapi e buscar lista de filmes" classname="Teste Web Service" time="3.08">
+        <error>java.lang.NullPointerException&#13;
+	at Config.BaseTeste.Mostraresultado(BaseTeste.java:109)&#13;
+	at Pagina.Swapi.Resultado(Swapi.java:28)&#13;
+	at Definicoes.DefAcesso.MostrarResultado(DefAcesso.java:40)&#13;
+	at ✽.Mostrar Filmes produzidos por George Lucas e Rick McCallum(file:src/main/java/features/Teste.feature:12)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

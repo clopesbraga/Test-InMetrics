@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="App" project="InMetrics_WebTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="Executar.App" time="32.332">
+    <testsuite name="Feature: Test Web" time="32.332">
+      <testcase name="Acessa pagina vagas da InMetrics" classname="Test Web" time="32.332">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "Clicar na pagina de Carreiras" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

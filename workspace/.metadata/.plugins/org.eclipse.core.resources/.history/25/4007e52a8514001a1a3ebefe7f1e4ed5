@@ -1,0 +1,62 @@
+package Pagina;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import Config.BaseTest;
+
+public class InMetrics extends BaseTest{
+	
+	int ms=10000; 
+	
+	public void CarregarPagina(){
+		
+		AbreNavegador();
+		
+	}
+	
+    public WebElement VerificaElemento (String elemento){
+		
+    	Thread mythread = new Thread() {
+			
+			@Override
+			public void run() {
+				super.run();
+				 try {sleep(ms);
+				} catch (InterruptedException e) {e.printStackTrace();}
+				 
+				
+				  finally{}
+				
+			}
+			
+		};
+		mythread.start();
+		return ConfereAcesso(elemento);
+	}
+
+    
+    public void Clicar(){
+    	
+    	Thread mythread = new Thread() {
+			
+			@Override
+			public void run() {
+				super.run();
+				 try {sleep(ms);
+				     AcionaBotoes();
+				} catch (InterruptedException e) {e.printStackTrace();
+				
+				}finally{}
+				
+			}
+			
+		};
+		mythread.start();
+    	
+    	
+    }
+   
+	
+}
