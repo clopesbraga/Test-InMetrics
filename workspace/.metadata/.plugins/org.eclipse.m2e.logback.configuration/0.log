@@ -5791,3 +5791,7 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-12-01 20:11:02,180 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
 2019-12-01 20:11:02,181 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-01 20:11:02,182 [Worker-345] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
+2019-12-01 21:37:23,477 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 21:37:23,482 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\main\resources
+2019-12-01 21:37:23,500 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 21:37:23,501 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cleiton\Documents\GitHub\Test-InMetrics\workspace\InMetrics_WebTest\src\test\resources
